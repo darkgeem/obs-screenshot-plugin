@@ -1,21 +1,20 @@
 {
     "dependencies": {
         "obs-studio": {
-            "version": "30.0.2",
+            "version": "32.0.4",
             "repository": "https://github.com/obsproject/obs-studio.git",
             "branch": "master",
-            "hash": "b45a73296f4f898e2ed455023020058075c30bab"
+            "hash": "dcdbd2e9048ae66237fdab32dbba72b745b1b9c5"
         },
         "prebuilt": {
-            "version": "2024-01-27",
+            "version": "2025-08-23",
             "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
             "label": "Pre-built obs-deps",
             "hashes": {
-                "macos-x86_64": "50c28e4acd881c076dc84a50d5bd776068abe61070eb93f465e64e0627e985c6",
-                "macos-arm64": "0c764ffe2eaf80898e02d31f53cad04df769b18554a56c2f3bb2b7b8e51968e8",
-                "macos-universal": "57a13557f7528e58743c4712dc25eb1c4558d36eeaca6f5361fe1f6cbfabe229",
-                "windows-x64": "d371f8cc81859b5321b66dcef00a207abbdff7373c722b761852cbc95664b4c9",
-                "windows-x86": "66a72428f404c69d6abac0b36fc89bb2ae4a8a6cb3bd14816a35b5ceb95d8769"
+                "macos-x86_64": "a84e850ff7773ab45e3ce0f25bb34799f4df46f3bfce28c8341030a4e2a48505",
+                "macos-arm64": "09cbeb3cbf4fbb9e58e4cf4ca030a724fb1be41d2d7851c8b356f476e04544db",
+                "macos-universal": "9403bb43fb0a9bb215739a5659ca274fe884dbbbcd22bd9ca781c961fb041c42",
+                "windows-x64": "8de229cff6f1981508c0eb646b35e644633a5855787b9f5d3b90ae2aeb87ffc1"
             }
         },
         "qt6": {
@@ -23,15 +22,13 @@
             "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
             "label": "Pre-built Qt6",
             "hashes": {
-                "macos-x86_64": "4a5472c47acbc130aac0d2e404082ae0ae3043a210ede19a27c98ad526d6a1d9",
-                "macos-arm64": "f852769fe41bb7e0fa04d91fb2a9a4a38a92a50b2a92534a36e11cc67b6d3716",
-                "macos-universal": "86f6418c3e454b3979947fdba183aa7303ca9d7729c7056435bd023d466cf93a",
-                "windows-x64": "7a15c4b494bfe2df51cad16e7cbcfcc2b5b69b55839dd584c622214038c7d44c",
-                "windows-x86": "ca4f8ecea3caae3a4ada841171059d552043a297643125287f00ed9ab0efd8db"
+                "macos-x86_64": "5edc5b6d5ae08f54933eb4b352c11794271195414471ea93fedd4505f0f57fe8",
+                "macos-arm64": "ed70bb04a5ffc4c820d691e7f1d9913462bc4e018383e98c5548876f6dec0304",
+                "macos-universal": "990f11638b80a4509e14e8c315f6e4caa0861e37fcd3113a256fbff835ffca29",
+                "windows-x64": "c62e82483bc7c0bf199e8ac3220c66a85a6e8a0cd69a05b6d44f873b830e415f"
             },
             "pdb-hashes": {
-                "windows-x64": "ddf356ce20a4946f7522253b5da44ce7fe29398bb55ff74467431fb31e8ec645",
-                "windows-x86": "44a3b2b9d576bf0553b0bcabfb71397010e66da9889a0a9b16feb06fbae98f64"
+                "windows-x64": "aae88a17e0211cb37db6a8602f2e20d69255be1f9700c699008ca5adbce1dde2"
             }
         }
     },
@@ -49,11 +46,6 @@
             "deploymentTarget": "10.15"
         },
         "windows-x64": {
-            "qtVersion": 6,
-            "visualStudio": "Visual Studio 17 2022",
-            "platformSDK": "10.0.20348.0"
-        },
-        "windows-x86": {
             "qtVersion": 6,
             "visualStudio": "Visual Studio 17 2022",
             "platformSDK": "10.0.20348.0"
